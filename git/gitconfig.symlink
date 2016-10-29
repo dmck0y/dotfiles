@@ -5,6 +5,10 @@
         protocol = https
 [alias]
         co = checkout
+        st = status
+        br = branch
+        unstage = reset HEAD --
+        last = log -1 HEAD
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
